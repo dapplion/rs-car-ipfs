@@ -37,8 +37,8 @@
 //!
 //! # Usage
 //!
-//! - To read a single file buffering the block dag [`single_file::read_single_file_buffer`]
-//! - To read a single file without buffering the block dag [`single_file::read_single_file_seek`]
+//! - To read a single file buffering the block dag [`read_single_file_buffer`]
+//! - To read a single file without buffering the block dag [`read_single_file_seek`]
 
 mod error;
 mod single_file_buffer;
